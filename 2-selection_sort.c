@@ -19,6 +19,8 @@ void selection_sort(int *array, size_t size)
 			if (array[j] < array[smallest])
 				smallest = j;
 		}
+		if (array[i] == array[smallest])
+			continue;
 		tmp = array[smallest];
 		array[smallest] = array[i];
 		array[i] = tmp;
