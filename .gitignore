@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+*main.c
+play.c
 
 # Object files
 *.o
