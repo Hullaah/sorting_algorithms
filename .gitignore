@@ -1,4 +1,5 @@
 # Prerequisites
+.vscode
 *.d
 *main.c
 play.c
